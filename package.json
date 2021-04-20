@@ -1,0 +1,23 @@
+{
+  "name": "conops-test",
+  "version": "1.0.0",
+  "description": "A test app to get some info on debugging ability",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glg/conops-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glg/conops-test/issues"
+  },
+  "homepage": "https://github.com/glg/conops-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-yaml": "^4.1.0"
+  }
+}
