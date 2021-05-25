@@ -2,15 +2,18 @@
 
 ## To Run:
 
-Download the repo
+### From Github
 
-1. In root 
 ```
 docker build -t conopstest .
-```
-2. run
-```
 docker run -d -p 3001:3001 conopstest
+```
+
+### From DockerHub
+
+```
+docker pull sayeefb/conopstest
+docker run -d -p 3001:3001 sayeefb/conopstest
 ```
 
 ## Instructions:
