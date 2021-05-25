@@ -1,5 +1,20 @@
 # conops-test
 
+## To Run:
+
+Download the repo
+
+1. In root 
+```
+docker build -t conopstest .
+```
+2. run
+```
+docker run -d -p 3001:3001 conopstest
+```
+
+## Instructions:
+
 This site is to test the skill of debugging problems in simple sites.
 
 The site is a simple employee information site for HR. All that is needed is the employee id.
